@@ -17,3 +17,18 @@ Static=> default you mention or not
     width: 100%;
     border-radius: 14px;
 }
+
+.help-btn{
+    padding: 14px 30px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+    position: fixed;
+    /* bottom: 0; */
+    right: 0;
+    top: 0;
+}
+
+/* top, right, bottom, left: distance from that direction */
