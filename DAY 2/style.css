@@ -1,0 +1,19 @@
+/* positions => to place the html element on the screen 
+Static=> default you mention or not
+1. Fixed
+2. sticky
+3. absoulte (most confusing but most important)
+4. relative
+
+*/
+.card{
+    border: 1px solid lightgray;
+    width: 320px;
+    padding: 10px;
+    margin: 16px auto;
+    border-radius: 14px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+}
