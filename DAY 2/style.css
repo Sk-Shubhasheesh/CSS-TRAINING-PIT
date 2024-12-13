@@ -26,9 +26,31 @@ Static=> default you mention or not
     border-radius: 12px;
     border: none;
     position: fixed;
-    /* bottom: 0; */
+    bottom: 0;
     right: 0;
-    top: 0;
+    /* top: 0; */
 }
 
 /* top, right, bottom, left: distance from that direction */
+
+.banner{
+    width: 270px;
+    margin: 10px auto;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 12px;
+    /* at last positio given */
+    position: sticky;
+    top: 0;
+
+}
+/* reduce the gap between the title & description */
+.banner-title{
+    margin: 0;
+
+}
+/* reduce the size of descrition */
+.banner-desc{
+    font-size: 13px;
+    margin: 4px 0;
+}
