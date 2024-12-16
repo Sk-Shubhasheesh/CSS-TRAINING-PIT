@@ -12,6 +12,7 @@ Static=> default you mention or not
     padding: 10px;
     margin: 16px auto;
     border-radius: 14px;
+    display: none;
 }
 .card-img{
     width: 100%;
@@ -43,6 +44,8 @@ Static=> default you mention or not
     position: sticky;
     top: 0;
 
+    display: none;
+
 }
 /* reduce the gap between the title & description */
 .banner-title{
@@ -53,4 +56,27 @@ Static=> default you mention or not
 .banner-desc{
     font-size: 13px;
     margin: 4px 0;
+}
+
+
+
+/* absolute-leaft your content just one level up */
+
+
+.red{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.blue{
+    width: 60px;
+    height: 60px;
+    background-color: royalblue;
+    color: white;
+    position: absolute;
+}
+.green{
+    width: 80px;
+    height: 80px;
+    background-color: greenyellow;
 }
