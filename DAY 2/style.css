@@ -74,6 +74,9 @@ Static=> default you mention or not
     background-color: royalblue;
     color: white;
     position: absolute;
+
+    top: 0;
+    right: 0;
 }
 .green{
     width: 80px;
