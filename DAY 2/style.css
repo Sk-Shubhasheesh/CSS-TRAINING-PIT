@@ -83,3 +83,24 @@ Static=> default you mention or not
     height: 80px;
     background-color: greenyellow;
 }
+
+
+
+
+/* Another example */
+.parent{
+    width: 700px;
+    height: 400px;
+    background-color: blueviolet;
+    margin: 60px auto;
+    /* At last we write */
+    position: relative;
+}
+.child{
+    width: 100px;
+    height: 100px;
+    background-color: orangered;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
