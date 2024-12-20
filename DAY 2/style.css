@@ -104,3 +104,30 @@ Static=> default you mention or not
     bottom: 0;
     right: 0;
 }
+
+
+
+/* Another Example */
+.bg{
+    width: 700px;
+    margin: 40px auto;
+    /* After aplly first position then we aplly it */
+    position: relative;
+}
+.bg-img{
+    width: 100%;
+    border-radius: 16px;
+}
+.bg-content{
+    position: absolute;
+    bottom: 100px;
+    left: 10px;
+    color: white;
+}
+.btn{
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 16px 30px;
+    font-size: 16px;
+}
