@@ -1,0 +1,18 @@
+.profile{
+    width: 600px;
+    margin: auto;
+    /* Last Step */
+    position: relative;
+}
+.profile-img{
+    width: 100%;
+}
+.user{
+    height: 90px;
+    border-radius: 50%;
+    position: absolute;
+    /* bottom: 0; */
+    left: 40px;
+    border: 3px solid white;
+    bottom: -40px;
+}

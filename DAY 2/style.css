@@ -12,122 +12,17 @@ Static=> default you mention or not
     padding: 10px;
     margin: 16px auto;
     border-radius: 14px;
-    display: none;
+    position: relative;
 }
 .card-img{
     width: 100%;
     border-radius: 14px;
+    
 }
-
-.help-btn{
-    padding: 14px 30px;
-    background-color: black;
-    color: white;
-    font-size: 16px;
-    border-radius: 12px;
-    border: none;
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    /* top: 0; */
-}
-
-/* top, right, bottom, left: distance from that direction */
-
-.banner{
-    width: 270px;
-    margin: 10px auto;
-    background-color: orangered;
-    padding: 10px;
-    border-radius: 12px;
-    /* at last positio given */
-    position: sticky;
-    top: 0;
-
-    display: none;
-
-}
-/* reduce the gap between the title & description */
-.banner-title{
-    margin: 0;
-
-}
-/* reduce the size of descrition */
-.banner-desc{
-    font-size: 13px;
-    margin: 4px 0;
-}
-
-
-
-/* absolute-leaft your content just one level up */
-
-
-.red{
-    width: 100px;
-    height: 100px;
-    background-color: red;
-}
-.blue{
-    width: 60px;
-    height: 60px;
-    background-color: royalblue;
-    color: white;
+.best-level{
     position: absolute;
-
-    top: 0;
-    right: 0;
-}
-.green{
-    width: 80px;
-    height: 80px;
-    background-color: greenyellow;
-}
-
-
-
-
-/* Another example */
-.parent{
-    width: 700px;
-    height: 400px;
-    background-color: blueviolet;
-    margin: 60px auto;
-    /* At last we write */
-    position: relative;
-}
-.child{
-    width: 100px;
-    height: 100px;
-    background-color: orangered;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
-
-
-
-/* Another Example */
-.bg{
-    width: 700px;
-    margin: 40px auto;
-    /* After aplly first position then we aplly it */
-    position: relative;
-}
-.bg-img{
-    width: 100%;
-    border-radius: 16px;
-}
-.bg-content{
-    position: absolute;
-    bottom: 100px;
-    left: 10px;
+    bottom: 150px;
+    left: 20px;
     color: white;
-}
-.btn{
-    background-color: white;
-    border: none;
-    border-radius: 40px;
-    padding: 16px 30px;
-    font-size: 16px;
+
 }
