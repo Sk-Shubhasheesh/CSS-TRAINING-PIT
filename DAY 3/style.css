@@ -1,0 +1,23 @@
+.card{
+    border: 1px solid lightgray;
+    width: 320px;
+    padding: 10px;
+    border-radius: 14px;
+}
+.card-img{
+    width: 100%;
+    border-radius: 14px;
+    
+}
+.flexbox{
+    display: flex;
+    gap: 20px;
+    /* justify content align the item horizontally */
+    justify-content: center; 
+    justify-content: start; 
+    justify-content: end;
+    justify-content: space-between;
+}
+/*
+If we want to space we used margin but margine give space all 4 side is we want space between only two item then we can't used it so we used gap
+*/
